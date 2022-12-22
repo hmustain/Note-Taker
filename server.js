@@ -63,7 +63,12 @@ app.post('/api/notes', (req, res) => {
   });
 
   app.delete('/api/notes/:id', (req, res) => {
-
+    // console log the delete req
+    console.info(`${req.method} request received to delete a note`);
+    const data = JSON.parse(fs.readFileSync('./db/db.json', "utf8"))
+    const delNote = data.filter((eraseNote) => eraseNote.id !== req.params.id);
+    fs.writeFileSync('./db/db.json', JSON.stringify(delNote));
+    res.json(delNote);
   });
 
 
