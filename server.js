@@ -63,7 +63,7 @@ app.post('/api/notes', (req, res) => {
   });
 
   app.delete('/api/notes/:id', (req, res) => {
-    res.send('DELETE Request Called')
+
   });
 
 
