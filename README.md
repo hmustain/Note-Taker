@@ -3,7 +3,7 @@
         
 
 ## Description
-This is a simple note taker app. The app is intended to allow the user a single page to jot down his/her notes or list of things to do/remember. This app allows the user to stay on task and not forget what he/she is supposed to do. This app allows the user to add/delete as many notes as the user wants, also allows the user to go back toa previous stored note.
+This is a simple note taker app. The app is intended to allow the user a single page to jot down his/her notes or list of things to do/remember. This app allows the user to stay on task and not forget what he/she is supposed to do. This app allows the user to add/delete as many notes as the user wants, also allows the user to go back to a previous stored note.
 
 ## Table of Contents
 
@@ -16,10 +16,14 @@ This is a simple note taker app. The app is intended to allow the user a single 
 - [Questions](#questions)
 
 ## Installation
-come back to this
+install express js by running npm install express from the command line
 
 ## Usage
-1) From landing page, click the get started button. 2) From the notes page enter a note title and note text then lclick the save icon 3) repeat step 2 as neeeded. 4) to view a previously stored note just click on that note. 5) to delete a previously stored note, click the trashcan icon.
+1) From landing page, click the get started button. 
+2) From the notes page enter a note title and note text then click the save icon 
+3) repeat step 2 as needed. 
+4) to view a previously stored note just click on that note. 
+5) to delete a previously stored note, click the trashcan icon.
 
 ## Credits
 TA and Askbcs along with official documentation
@@ -31,7 +35,7 @@ No contributions allowed <br>
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
         
-Copyright 2022 Hunter Mustain
+Copyright 2023 Hunter Mustain
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
         
