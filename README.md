@@ -25,6 +25,9 @@ install express js by running npm install express from the command line
 4) to view a previously stored note just click on that note. 
 5) to delete a previously stored note, click the trashcan icon.
 
+A link to deployed application can be found below.
+https://note-taker-hm.herokuapp.com/
+
 ## Credits
 TA and Askbcs along with official documentation
 
